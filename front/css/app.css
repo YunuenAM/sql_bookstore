@@ -1,0 +1,53 @@
+:root {
+    --primario: #D847BA;
+    --secundario: #ffff;
+    --fuente:    'helvetica';
+}
+body {
+    font-family: var(--fuente);
+    /* background-image: url('../img/retro-computer-desk-arrangement.jpg'); */
+}
+.header {
+   background-color: var(--primario)!important;
+
+}
+
+.header h1 {
+    color: var(--secundario);
+    font-weight: 900;
+}
+.header p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.heading {
+    font-weight: 900;
+    color: var(--primario);
+}
+
+.section {
+    min-height: 1000px;
+    padding: 2rem;
+}
+
+img{
+
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+
+.card-equal-height {
+        height: 100%;
+      }
+      
+
+equal-height {
+        display: flex;
+      }
+
+ .card-img-top {
+        max-height: 250px;
+      }
